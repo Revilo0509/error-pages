@@ -1,0 +1,68 @@
+errors:
+  - code: 400
+    title: Bad Request
+    desc: The request could not be understood. The server could not process your request because it contains invalid or incomplete information. Check your input and try again.
+
+  - code: 401
+    title: Unauthorized
+    desc: Sign in required. You need to sign in to access this page. Please log in and try again.
+
+  - code: 403
+    title: Forbidden
+    desc: Access denied. You do not have permission to access this page.
+
+  - code: 404
+    title: Not Found
+    desc: Page not found. The page you are looking for may have been moved, deleted, or may no longer exist. Check the address or return to the homepage.
+
+  - code: 405
+    title: Method Not Allowed
+    desc: This action is not allowed. The requested action is not supported for this page. Please return to the previous page and try a different action.
+
+  - code: 408
+    title: Request Timeout
+    desc: The request took too long. The server did not receive your request in time. Please try again.
+
+  - code: 409
+    title: Conflict
+    desc: The request could not be completed. Your request conflicts with the current state of this resource. Refresh the page and try again.
+
+  - code: 410
+    title: Gone
+    desc: This page is no longer available. The page you are trying to reach has been permanently removed.
+
+  - code: 413
+    title: Content Too Large
+    desc: The file is too large. The submitted content exceeds the maximum size allowed. Reduce the file size and try again.
+
+  - code: 415
+    title: Unsupported Media Type
+    desc: This file type is not supported. The submitted content uses a format this page cannot accept. Check the supported file types and try again.
+
+  - code: 422
+    title: Unprocessable Content
+    desc: Some information needs attention. The server could not process the information you submitted. Review the fields and correct any errors.
+
+  - code: 429
+    title: Too Many Requests
+    desc: You have made too many requests in a short period. Please wait a moment before trying again.
+
+  - code: 500
+    title: Internal Server Error
+    desc: Something went wrong. An unexpected error occurred on our server. Please try again later.
+
+  - code: 501
+    title: Not Implemented
+    desc: Feature unavailable. The server does not currently support the functionality needed to complete this request.
+
+  - code: 502
+    title: Bad Gateway
+    desc: Temporary connection problem. The server received an invalid response from another server. Please try again shortly.
+
+  - code: 503
+    title: Service Unavailable
+    desc: Service temporarily unavailable. The service is temporarily unavailable, possibly due to maintenance or high traffic. Please try again later.
+
+  - code: 504
+    title: Gateway Timeout
+    desc: The server took too long to respond. Another server did not respond in time. Please try again later.

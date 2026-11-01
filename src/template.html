@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Branding -->
+    <title>Zyner | {{ code }} Error</title>
+    <link rel="icon" type="image/svg" href="https://s3.zyner.org/brand/logo.svg" />
+    <style>
+      {{ css | safe }}
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>
+        <span>Error</span>
+        <span>{{ code }}</span>
+      </h1>
+      <h2>{{ title }}</h2>
+      <p>{{ desc }}</p>
+      <button type="button" onclick="window.location.reload()">Refresh page</button>
+    </main>
+  </body>
+</html>
