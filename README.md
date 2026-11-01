@@ -9,7 +9,3 @@ uv run main.py
 ```
 
 in the root and you'll get the files in /dist
-
-```
-
-```
